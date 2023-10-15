@@ -1,0 +1,54 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  background-color: #E6E6FA;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+}
+
+
+
+#quote-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+
+#text {
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+}
+
+#new-quote {
+  position: absolute;
+  top: 70%;
+  right: 37%;
+  transform: translateY(-50%);
+}
+
+button , 
+a {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  width: fit-content;
+  border-color: #1A1A1A;
+  cursor: pointer;
+  font-family: inherit;
+}
